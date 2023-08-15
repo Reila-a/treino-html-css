@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=News+Cycle:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'News Cycle', sans-serif;
+}
+
+:root{
+    --cinza: #DDDEDE;
+    --rosaEscuro: #F53779;
+    --rosaClaro: #F87CD1;
+    --azul: #34AFF5;
+    --amarelo: #EFBE2F;
+}
+
+body{
+    background-color: var(--rosaClaro);
+}
+
+.logo{
+    border-radius: 50%;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: var(--azul);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 40px 40px;
+}
+
+.menu-lista-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: var(--rosaEscuro);
+    font-size: 18px;
+}
+
+
+.menu-link:hover{
+    color: var(--amarelo);
+    transition: 0.5;
+    text-shadow: 3px 3px 3px var(--amarelo);
+}
+
+/*-------------------------------------*/
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.perfil img{
+    border-radius: 60%;
+    width: 90%;
+    margin: 30px 0;
+}
+
+.menu-lateral{
+    text-align: center;
+    width: 80%; /*vai definir o tamanho da caixa do menu*/
+    background-color: var(--rosaEscuro);
+    box-shadow: -3px  0px 3px;
+}
+
+.menu-lateral h1{
+    font-family:'Amatic SC', cursive;
+    font-size: 60px;
+    color: var(--amarelo);
+    text-shadow: 2px 2px 2px #000;
+    padding-bottom: 20px;
+}
+
+.barra-lateral{
+    list-style: none;
+}
+
+.menu-lateral h2{
+    font-family:'Amatic SC', cursive;
+    font-size: 30px;
+    color: var(--azul);
+    text-shadow: 2px 2px 2px #000;
+    padding-bottom: 30px;
+}
+
+.barra-lateral-links{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 25px;
+  
+}
+
+.barra-lateral-links:hover{
+    color: var(--amarelo);
+    transition: 0.5;
+    text-shadow: 3px 3px 3px var(--azul);
+
+}
+
+/*--------------------------------------------------------------*/
+
+
+.galeria-conteudo h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: var(--azul);
+    text-shadow: 3px 0px 3px #000;
+    text-align: center;
+    margin-bottom: 10px;
+       
+}
+
+.galeria-conteudo p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: var(--cinza);
+    text-align: center;
+    border-top: 0.3px dashed var(--amarelo); /*PERGUNTAR PORQUE O LINE HIGHT NAO FUNCIONA*/
+    padding: 10px;
+    padding-top: 15px;  
+
+}
+
+.galeria-conteudo{
+    margin: 40px;
+
+}
+
+.img100{
+    width: 100%;
+}
+
+.img-25{
+    width: 24%;
+}
+
+.img-50{
+    width: 45%;
+    
+}
+
+.img-10{
+    width: 10%;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10.5px;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.sec3{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 101px;
+    align-items: center;
+   
+}
+
+.sec4{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+/*------------------------------------------------*/
+
+.rodape{
+    background-color: var(--azul);
+    padding: 10px 10px 15px 15px;
+}
+
+.rodape-lista{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    
+
+}
+
+.div-rodape{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-rodape{
+    text-decoration: none;
+    color: var(--rosaEscuro);
+
+}
+
+.link-rodape:hover{
+    color: var(--amarelo);
+    text-shadow: 2px 0 2px var(--amarelo);
+    transition: 0.5;
+}
+
+
+
+
+
+
+
+
